@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Appointment Booking with Payment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="appointment-container">
+    <form class="appointment-form" action="/processAppointment" method="post">
+      <label for="appointmentDate">Appointment Date:</label>
+      <input type="date" id="appointmentDate" name="appointmentDate" required>
+
+      <label for="appointmentTime">Appointment Time:</label>
+      <input type="time" id="appointmentTime" name="appointmentTime" required>
+
+      <label for="appointmentType">Appointment Type:</label>
+      <input type="text" id="appointmentType" name="appointmentType" required>
+
+      <label for="patientName">Patient Name:</label>
+      <input type="text" id="patientName" name="patientName" required>
+
+      <div id="paymentComponentContainer"></div>
+
+    
+    </form>
+  </div>
+
+  <script src="payment-component.js"></script>
+
+</body>
+</html>

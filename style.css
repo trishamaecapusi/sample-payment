@@ -1,0 +1,241 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  main {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 400px;
+  }
+
+  .payment-option {
+    cursor: pointer;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #ff8c00;
+    color: #fff;
+    border-radius: 8px;
+    text-align: center;
+    transition: background-color 0.3s;
+    position: relative;
+  }
+
+  .payment-option:hover {
+    background-color: #e07b00;
+  }
+
+  .payment-form {
+    display: none;
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+
+  h2 {
+    color: #fff;
+    margin-bottom: 10px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  label {
+    margin-bottom: 5px;
+    color: #333;
+  }
+
+  input {
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+
+  .submit-section {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  button {
+    background-color: #ff8c00;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  button:hover {
+    background-color: #e07b00;
+  }
+
+  .payment-icon {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 20px;
+  }
+  .checkout-container {
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .order-list {
+    flex: 2; /* Make the order list wider */
+    padding: 20px;
+    border-right: 1px solid #ccc;
+  }
+  
+  .order-list h2 {
+    color: #333;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+  }
+  
+  .order-items {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+  }
+  
+  .order-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+  }
+  
+  .order-item span {
+    color: #666;
+  }
+  
+  .payment-container {
+    flex: 1;
+    padding: 20px;
+    background-color: #fafafa;
+  }
+  
+  .total-section {
+    margin-top: 20px;
+    text-align: right;
+  }
+  
+  .total-label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .total-amount {
+    color: #e07b00;
+    font-size: 1.2em;
+  }
+  
+  .voucher-section {
+    margin-top: 20px;
+    padding-bottom: 20px; /* Add padding to separate from the border */
+  }
+  
+  .voucher-input {
+    width: calc(100% - 20px); /* Adjust width to consider padding */
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box; /* Include padding in the width calculation */
+  }
+  
+  .apply-button {
+    background-color: #ff8c00;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+  }
+  
+  .apply-button:hover {
+    background-color: #e07b00;
+  }
+
+  .book-appointment-button {
+    background-color: #ff8c00;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 200px; /* Set a fixed width for the button */
+    margin: auto; /* Center the button with margin */
+    margin-top: 20px; /* Add some top margin for separation */
+    border-radius: 8px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+  }
+  
+  .book-appointment-button:hover {
+    background-color: #e07b00;
+  }
+  
+  .footer {
+    margin-top: auto; /* Push the footer to the bottom */
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+  }
+
+  .appointment-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .appointment-form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  label {
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  input {
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .appointment-container {
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .appointment-details {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+  }
+  
+ 
